@@ -13,11 +13,11 @@ import javax.swing.table.DefaultTableModel;
 import org.apache.lucene.queryparser.classic.ParseException;
 
 import com.hp.hpl.jena.rdf.model.Statement;
+
 import com.uvsq.Jung.JUNG;
 import com.uvsq.Lucene.Lucene;
 import com.uvsq.RDF.RDF;
 import com.uvsq.RDF.RDFManager;
-import com.uvsq.SPARQL.SPARQL;
 
 	/**
 	 *
@@ -26,7 +26,6 @@ import com.uvsq.SPARQL.SPARQL;
 
 public class MainForm  extends javax.swing.JFrame {
 
-		//public static String filePath = "";
 		private DefaultTableModel model = new DefaultTableModel(); 
 		private Lucene lucene;
 		public MainForm() {
@@ -132,7 +131,6 @@ public class MainForm  extends javax.swing.JFrame {
 	    private void launch_btActionPerformed(java.awt.event.ActionEvent evt)  {
 	    	cmd_browActionPerformed(evt);
 	    	String file = chemin_txt.getText();
-	        //filePath = file;
 	    	if (!file.isEmpty()) 
 	    	{
 	    		RDF rdf = new RDF(file);
@@ -172,9 +170,7 @@ public class MainForm  extends javax.swing.JFrame {
 	    		
 	    			for(Statement triplet : rdfManager.getTriplets())
 	    			{
-	    			model.addRow(new Object[]{triplet.getSubject().toString(),
-	    					triplet.getPredicate().getLocalName().toString(),
-	    					triplet.getObject().toString()});
+	    			model.addRow(new Object[]{triplet.getSubject().toString(), triplet.getPredicate().getLocalName().toString(),triplet.getObject().toString()});
 	    			}			
 	    		}
 	    }            
@@ -184,20 +180,14 @@ public class MainForm  extends javax.swing.JFrame {
 	    	try {
 	    		while (model.getRowCount()!=0)
 	    			model.removeRow(0);
-	    		String keywords = search_txt.getText();
-	    		if(!keywords.trim().equals(""))
-	    		{
-	    			Object[][]result = lucene.Search(keywords);
-		    		for(int i=0; i<result.length;i++){
-		    			model.addRow( result[i]);
-		    		}	
-		    		//create a simple graph
-		    		//JUNG.createTree(result, "Graphe de resultat (Sans liaison)");
-		    		//create a complex graph
-		    		JUNG.createTreeCompl(result, "Graphe de resultat (Avec liaison)");
-		    		//create a SPARQL graph
-		    		//SPARQL.createTreeSPARQL(chemin_txt.getText(), keywords);    		
-	    		}
+	    		Object[][]result = lucene.Search(search_txt.getText());
+	    		//create a simple graph
+	    		//JUNG.creatTree(result);
+	    		//create a complex graph
+	    		JUNG.createTreeCompl(result);
+	    		for(int i=0; i<result.length;i++){
+	    			model.addRow( result[i]);
+	    		}	    		
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -217,7 +207,7 @@ public class MainForm  extends javax.swing.JFrame {
 		    }
 	        File f=chooser.getSelectedFile();
 	        String filename=f.getAbsolutePath();
-	        chemin_txt.setText(filename);
+	        chemin_txt.setText(filename);	        
 	    } 
 	    
 	    // Variables declaration - do not modify                     
@@ -239,7 +229,7 @@ public class MainForm  extends javax.swing.JFrame {
 	    // End of variables declaration                   
 		
 	public static void main(String[] args) {
-		//SPARQL.launchSPARQL();
+		
 		MainForm interf = new MainForm();
 		interf.setVisible(true);
 	}

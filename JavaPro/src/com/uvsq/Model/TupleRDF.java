@@ -127,10 +127,10 @@ public class TupleRDF {
 		}
 		String critere = "{\n"
 				+ "?s ?p ?o .\n"
-				+ "?s ?pt \"" + litName + "\"\n"
+				+ "?s ?pt ?ot .\n"
 				/*+ "FILTER regex(?s, \"" + resName + "\", \"i\") .\n"
-				+ "FILTER regex(?pt, \"" + this.Predicat.toString() + "\", \"i\") .\n"
-				+ "FILTER regex(?ot, \"" + litName + "\", \"i\")\n"*/
+				+ "FILTER regex(?pt, \"" + this.Predicat.toString() + "\", \"i\") .\n"*/
+				+ "FILTER regex(?ot, \"" + litName.trim().replace("\"", " ") + "\", \"i\")\n"
 				+ "}\n";
 		return critere;
 	}

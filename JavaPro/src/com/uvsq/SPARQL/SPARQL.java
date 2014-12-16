@@ -58,7 +58,7 @@ public class SPARQL {
 		{
 			//System.out.println("SPARQL Found 2 : " + objss.length);
 			//3. generate a SPARQL graph
-			JUNG.createTree(objss, "Graphe de resultat (Requ¨ºte SPARQL)");
+			JUNG.createTree(objss);
 		}else{
 			System.out.println("SPARQL Found nothing !");
 		}
@@ -79,9 +79,9 @@ public class SPARQL {
 			}
 		}
 		sparqlStr += "}";
-		System.out.println(sparqlStr);
+		//System.out.println(sparqlStr);
 		Object[][] result = launchSPARQL(sparqlStr);
-		List<TupleRDF> tsResult = JUNG.convertirTuples(result);
+		List<TupleRDF> tsResult = new JUNG().convertirTuples(result);
 		for(TupleRDF t : tsResult){
 			if(resSet.contains(t.getSujet().toString())){
 				ts.add(t);
@@ -117,7 +117,7 @@ public class SPARQL {
 				obj[1] = p.toString();
 				obj[2] = o.toString();
 				objl.add(obj);
-				System.out.println(s + "        =>        " + p + "        =>        " + o);
+				//System.out.println(s + "        =>        " + p + "        =>        " + o);
 				count++;
 			}
 			System.out.println("SPARQL Found : " +count + " hits.");
