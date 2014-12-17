@@ -32,7 +32,7 @@ import java.util.List;
 public class Lucene {
 	private static Version VERSION = Version.LUCENE_4_10_1;
 	private PersonalizedAnalyser analyzer;
-	private static String indexPath = "C:/Users/Gong/index";
+	private static String indexPath = "C:/index";
 	private Directory index ;
 	public Lucene()
 	{

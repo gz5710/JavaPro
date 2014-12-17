@@ -86,7 +86,7 @@ public class JUNG {
 		tsFinal = new ArrayList<TupleRDF>(noDup);
 		//create a model
 		model = convertirModel(tsFinal);
-		createGraph(model, "Graphe de resultat (Avec liaison)");
+		createGraph(model, "Graphe de resultat (SPARQL)");
 	}
 	
 	public static List<TupleRDF> findShortestPath(RDFNode n1, RDFNode n2)
@@ -103,7 +103,7 @@ public class JUNG {
 		}
 		List<TupleRDF> ts = convertirTuples(result);
 		Model model = convertirModel(ts);
-		createGraph(model, "Graphe de resultat (Sans liaison)");
+		createGraph(model, "Graphe de resultat (Lucene)");
 	}
 	
 	

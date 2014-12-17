@@ -134,21 +134,4 @@ public class TupleRDF {
 				+ "}\n";
 		return critere;
 	}
-	
-/*	select distinct ?s, ?p, ?o
-			where {
-			{
-			       ?s ?p ?o .
-			       ?s ?pt ?ot .
-			       FILTER regex(?pt, "type", "i") .
-			       FILTER regex(?ot, "LaunchPad", "i")
-			}
-			UNION
-			{
-			       ?s ?p ?o .
-			       ?s ?pt ?ot .
-			       FILTER regex(?pt, "type", "i") .
-			       FILTER regex(?ot, "d", "i")
-			}
-			}*/
 }

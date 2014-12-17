@@ -181,13 +181,13 @@ public class MainForm  extends javax.swing.JFrame {
 	    		while (model.getRowCount()!=0)
 	    			model.removeRow(0);
 	    		Object[][]result = lucene.Search(search_txt.getText());
-	    		//create a simple graph
-	    		//JUNG.creatTree(result);
-	    		//create a complex graph
-	    		JUNG.createTreeCompl(result);
 	    		for(int i=0; i<result.length;i++){
 	    			model.addRow( result[i]);
 	    		}	    		
+	    		//create a simple graph
+	    		JUNG.createTree(result);
+	    		//create a complex graph
+	    		JUNG.createTreeCompl(result);
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
