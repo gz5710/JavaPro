@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_distributor">
+    <rdfs:label>List of all instances: film_distributor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_festival_sponsor">
+    <rdfs:label>List of all instances: film_festival_sponsor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_cut">
+    <rdfs:label>List of all instances: film_cut</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/country">
+    <rdfs:label>List of all instances: country</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/special_film_performance_type">
+    <rdfs:label>List of all instances: special_film_performance_type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film">
+    <rdfs:label>List of all instances: film</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/production_company">
+    <rdfs:label>List of all instances: production_company</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_job">
+    <rdfs:label>List of all instances: film_job</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_crew_gig">
+    <rdfs:label>List of all instances: film_crew_gig</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_festival_focus">
+    <rdfs:label>List of all instances: film_festival_focus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/content_rating_system">
+    <rdfs:label>List of all instances: content_rating_system</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_format">
+    <rdfs:label>List of all instances: film_format</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/personal_film_appearance">
+    <rdfs:label>List of all instances: personal_film_appearance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_awards_ceremony">
+    <rdfs:label>List of all instances: film_awards_ceremony</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_costume_designer">
+    <rdfs:label>List of all instances: film_costume_designer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_collection">
+    <rdfs:label>List of all instances: film_collection</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_screening_venue">
+    <rdfs:label>List of all instances: film_screening_venue</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_casting_director">
+    <rdfs:label>List of all instances: film_casting_director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_theorist">
+    <rdfs:label>List of all instances: film_theorist</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/dubbing_performance">
+    <rdfs:label>List of all instances: dubbing_performance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_subject">
+    <rdfs:label>List of all instances: film_subject</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_festival_sponsorship">
+    <rdfs:label>List of all instances: film_festival_sponsorship</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_story_contributor">
+    <rdfs:label>List of all instances: film_story_contributor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_series">
+    <rdfs:label>List of all instances: film_series</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_distribution_medium">
+    <rdfs:label>List of all instances: film_distribution_medium</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/actor">
+    <rdfs:label>List of all instances: actor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_regional_release_date">
+    <rdfs:label>List of all instances: film_regional_release_date</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_character">
+    <rdfs:label>List of all instances: film_character</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_film_distributor_relationship">
+    <rdfs:label>List of all instances: film_film_distributor_relationship</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_art_director">
+    <rdfs:label>List of all instances: film_art_director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_film_company_relationship">
+    <rdfs:label>List of all instances: film_film_company_relationship</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_genre">
+    <rdfs:label>List of all instances: film_genre</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/music_contributor">
+    <rdfs:label>List of all instances: music_contributor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/content_rating">
+    <rdfs:label>List of all instances: content_rating</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/writer">
+    <rdfs:label>List of all instances: writer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/cinematographer">
+    <rdfs:label>List of all instances: cinematographer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/producer">
+    <rdfs:label>List of all instances: producer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_crewmember">
+    <rdfs:label>List of all instances: film_crewmember</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_set_designer">
+    <rdfs:label>List of all instances: film_set_designer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_production_designer">
+    <rdfs:label>List of all instances: film_production_designer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/director">
+    <rdfs:label>List of all instances: director</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_company">
+    <rdfs:label>List of all instances: film_company</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/performance">
+    <rdfs:label>List of all instances: performance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/personal_film_appearance_type">
+    <rdfs:label>List of all instances: personal_film_appearance_type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/interlink">
+    <rdfs:label>List of all instances: interlink</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all/linkage_run">
+    <rdfs:label>List of all instances: linkage_run</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/all">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_film_distributor_relationship"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_costume_designer"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/personal_film_appearance_type"/>
+    <rdfs:seeAlso>
+    
+      <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_critic">
+        <rdfs:label>List of all instances: film_critic</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/content_rating_system"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_format"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/music_contributor"/>
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_set_designer"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_casting_director"/>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_festival">
+        <rdfs:label>List of all instances: film_festival</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/dubbing_performance"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_production_designer"/>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_location">
+        <rdfs:label>List of all instances: film_location</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_regional_release_date"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_job"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/cinematographer"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_festival_focus"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/producer"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/special_film_performance_type"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_story_contributor"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/interlink"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/content_rating"/>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/all/editor">
+        <rdfs:label>List of all instances: editor</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_crewmember"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_film_company_relationship"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/linkage_run"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/production_company"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_collection"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/actor"/>
+    <rdfs:label>D2R Server contents</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_series"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_art_director"/>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_festival_event">
+        <rdfs:label>List of all instances: film_festival_event</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_character"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_festival_sponsor"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_cut"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_screening_venue"/>
+    <rdfs:seeAlso>
+      <rdf:Description rdf:about="http://data.linkedmdb.org/all/film_featured_song">
+        <rdfs:label>List of all instances: film_featured_song</rdfs:label>
+      </rdf:Description>
+    </rdfs:seeAlso>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_theorist"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/country"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_distribution_medium"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/personal_film_appearance"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_genre"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_awards_ceremony"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_festival_sponsorship"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_company"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_subject"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_crew_gig"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/writer"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/director"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/film_distributor"/>
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/all/performance"/>
+  </rdf:Description>
+</rdf:RDF>

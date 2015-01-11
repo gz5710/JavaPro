@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2221">
+    <movie:writer>
+      <movie:writer rdf:about="http://data.linkedmdb.org/resource/writer/10">
+        <movie:writer_writerid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >10</movie:writer_writerid>
+        <movie:writer_name>Michael Mann</movie:writer_name>
+        <rdfs:label>Michael Mann (Writer)</rdfs:label>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f8000000000027517">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f8000000000027517%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <rdfs:SeeAlso>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/bookmashup/persons/Michael+Mann">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fbookmashup%2Fpersons%2FMichael%2BMann%3E"/>
+          </rdf:Description>
+        </rdfs:SeeAlso>
+      </movie:writer>
+    </movie:writer>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2393">
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1455">
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/1141">
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/6948">
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8122">
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/49044">
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/343">
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/4034">
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/120966">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/writer/10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/53">
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/2364">
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/8221">
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/456">
+    <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/writer/10">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Michael Mann (Writer)</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/writer/10"/>
+  </rdf:Description>    
+  <rdf:Description rdf:about="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0091474/">
+    <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.rottentomatoes.com%2Falias%3Ftype%3Dimdbid%26s%3D0091474%2F%3E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/70733">
+    <oddlinker:link_source>
+      <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1141">
+        <movie:film_subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/506"/>
+        <skos:subject rdf:resource="http://data.linkedmdb.org/resource/film_subject/506"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/78993"/>
+        <movie:film_format rdf:resource="http://data.linkedmdb.org/resource/film_format/66"/>
+        <dc:date>1986-08-15</dc:date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/85189"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/Manhunter_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FManhunter_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.freebase.com/view/guid/9202a8c04000641f80000000002d16e5">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.freebase.com%2Fview%2Fguid%2F9202a8c04000641f80000000002d16e5%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/34036"/>
+        <movie:runtime>119</movie:runtime>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33822"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42274"/>
+        <owl:sameAs>
+          <rdf:Description rdf:about="http://mpii.de/yago/resource/Manhunter_%28film%29">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fmpii.de%2Fyago%2Fresource%2FManhunter_%2528film%2529%3E"/>
+          </rdf:Description>
+        </owl:sameAs>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19003"/>
+        <foaf:page>
+          <rdf:Description rdf:about="http://www.imdb.com/title/tt0091474/">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0091474%2F%3E"/>
+          </rdf:Description>
+        </foaf:page>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/10"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/76364"/>
+        <foaf:page rdf:resource="http://www.rottentomatoes.com/alias?type=imdbid&amp;s=0091474/"/>
+        <movie:writer rdf:resource="http://data.linkedmdb.org/resource/writer/14379"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/837"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/1733"/>
+        <rdfs:label>Manhunter</rdfs:label>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/191561"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19004"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/42982"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/32626"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19005"/>
+        <movie:language>
+          <rdf:Description rdf:about="http://www.lingvoj.org/lingvo/en">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww.lingvoj.org%2Flingvo%2Fen%3E"/>
+          </rdf:Description>
+        </movie:language>
+        <movie:featured_film_location rdf:resource="http://data.linkedmdb.org/resource/film_location/364"/>
+        <movie:director>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/director/3">
+            <foaf:made rdf:resource="http://data.linkedmdb.org/resource/film/1141"/>
+          </rdf:Description>
+        </movie:director>
+        <movie:filmid rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1141</movie:filmid>
+        <movie:sequel>
+          <rdf:Description rdf:about="http://data.linkedmdb.org/resource/film/38145">
+            <movie:prequel rdf:resource="http://data.linkedmdb.org/resource/film/1141"/>
+          </rdf:Description>
+        </movie:sequel>
+        <movie:initial_release_date>1986-08-15</movie:initial_release_date>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19001"/>
+        <movie:music_contributor rdf:resource="http://data.linkedmdb.org/resource/music_contributor/329"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19006"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/33182"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/43098"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/37162"/>
+        <movie:film_cut rdf:resource="http://data.linkedmdb.org/resource/film_cut/4054"/>
+        <movie:actor rdf:resource="http://data.linkedmdb.org/resource/actor/57228"/>
+        <dc:title>Manhunter</dc:title>
+        <dbpedia:hasPhotoCollection>
+          <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Manhunter_(film)">
+            <rdfs:seeAlso rdf:resource="http://data.linkedmdb.org/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fwww4.wiwiss.fu-berlin.de%2Fflickrwrappr%2Fphotos%2FManhunter_%28film%29%3E"/>
+          </rdf:Description>
+        </dbpedia:hasPhotoCollection>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/10391"/>
+        <movie:performance rdf:resource="http://data.linkedmdb.org/resource/performance/19002"/>
+        <movie:producer rdf:resource="http://data.linkedmdb.org/resource/producer/1291"/>
+      </movie:film>
+    </oddlinker:link_source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/607">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1141"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/135014">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1141"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/19140">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1141"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/resource/interlink/37673">
+    <oddlinker:link_source rdf:resource="http://data.linkedmdb.org/resource/film/1141"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.linkedmdb.org/data/film/1141">
+    <rdfs:comment>Contents of this file may include content from 
+		      FreeBase (http://www.freebase.com) or Wikipedia 
+		      (http://www.wikipedia.org) licensed under CC-BY
+		      (http://www.freebase.com/view/common/license/cc_attribution_25)
+		      or GFDL (http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License). 
+		      Refer to http://www.linkedmdb.org:8080/Main/Licensing for more details.</rdfs:comment>
+    <rdfs:label>RDF Description of Manhunter</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://data.linkedmdb.org/resource/film/1141"/>
+  </rdf:Description>
+</rdf:RDF>

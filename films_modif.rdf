@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:dbpedia="http://dbpedia.org/property/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:oddlinker="http://data.linkedmdb.org/resource/oddlinker/"
+    xmlns:db="http://data.linkedmdb.org/resource/"
+    xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:map="file:/C:/d2r-server-0.4/mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/2434">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>David Argue (Actor)</rdfs:label>
+  </movie:actor>
+  <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/388">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Kendall "Breezy Brisbane" McComas (Actor)</rdfs:label>
+  </movie:actor>
+  <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/1780">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Vineeth Kumar (Actor)</rdfs:label>
+  </movie:actor>
+  <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/524">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Kimberly J. Brown (Actor)</rdfs:label>
+  </movie:actor>
+  <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/637">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Jack Lambert (Actor)</rdfs:label>
+  </movie:actor>
+  <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/1256">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Nick G. Miller (Actor)</rdfs:label>
+  </movie:actor>
+  <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/410">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Michael O'Leary (Actor)</rdfs:label>
+  </movie:actor>
+  <movie:actor rdf:about="http://data.linkedmdb.org/resource/actor/1369">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Valéry Inkijinoff (Actor)</rdfs:label>
+  </movie:actor>
+  <movie:film_genre rdf:about="http://data.linkedmdb.org/resource/film_genre/343">
+    <rdfs:label>Independence Movies (Film Genre)</rdfs:label>
+  </movie:film_genre>
+  <movie:film_genre rdf:about="http://data.linkedmdb.org/resource/film_genre/14">
+    <rdfs:label>Western (Film Genre)</rdfs:label>
+  </movie:film_genre>
+  <movie:film_genre rdf:about="http://data.linkedmdb.org/resource/film_genre/357">
+    <rdfs:label>Colonial cinema (Film Genre)</rdfs:label>
+  </movie:film_genre>
+  <movie:film_genre rdf:about="http://data.linkedmdb.org/resource/film_genre/143">
+    <rdfs:label>Jianghu (Film Genre)</rdfs:label>
+  </movie:film_genre>
+  <movie:film_genre rdf:about="http://data.linkedmdb.org/resource/film_genre/163">
+    <rdfs:label>Space opera (Film Genre)</rdfs:label>
+  </movie:film_genre>
+  <movie:film_genre rdf:about="http://data.linkedmdb.org/resource/film_genre/52">
+    <rdfs:label>Crime Thriller (Film Genre)</rdfs:label>
+  </movie:film_genre>
+  <movie:film_genre rdf:about="http://data.linkedmdb.org/resource/film_genre/377">
+    <rdfs:label>Training film (Film Genre)</rdfs:label>
+  </movie:film_genre>
+  <movie:film_genre rdf:about="http://data.linkedmdb.org/resource/film_genre/363">
+    <rdfs:label>Gross out (Film Genre)</rdfs:label>
+  </movie:film_genre>
+  <movie:film_genre rdf:about="http://data.linkedmdb.org/resource/film_genre/342">
+    <rdfs:label>Pre-Code (Film Genre)</rdfs:label>
+  </movie:film_genre>
+  <movie:film_genre rdf:about="http://data.linkedmdb.org/resource/film_genre/362">
+    <rdfs:label>Prison escape (Film Genre)</rdfs:label>
+  </movie:film_genre>
+  <movie:film_genre rdf:about="http://data.linkedmdb.org/resource/film_genre/13">
+    <rdfs:label>Spy (Film Genre)</rdfs:label>
+  </movie:film_genre>
+  <movie:film_genre rdf:about="http://data.linkedmdb.org/resource/film_genre/356">
+    <rdfs:label>Psychological thriller (Film Genre)</rdfs:label>
+  </movie:film_genre>
+  <movie:film_genre rdf:about="http://data.linkedmdb.org/resource/film_genre/53">
+    <rdfs:label>Neo-noir (Film Genre)</rdfs:label>
+  </movie:film_genre>
+  <movie:film_genre rdf:about="http://data.linkedmdb.org/resource/film_genre/162">
+    <rdfs:label>Surfing (Film Genre)</rdfs:label>
+  </movie:film_genre>
+  <movie:film_genre rdf:about="http://data.linkedmdb.org/resource/film_genre/376">
+    <rdfs:label>Godsploitation (Film Genre)</rdfs:label>
+  </movie:film_genre>
+  <movie:film_genre rdf:about="http://data.linkedmdb.org/resource/film_genre/142">
+    <rdfs:label>Hentai (Film Genre)</rdfs:label>
+  </movie:film_genre>
+  <movie:film_genre rdf:about="http://data.linkedmdb.org/resource/film_genre/12">
+    <rdfs:label>War (Film Genre)</rdfs:label>
+  </movie:film_genre>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1510">
+    <rdfs:label>Stray Dog</rdfs:label>
+  </movie:film>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/824">
+    <rdfs:label>Death, Deceit and Destiny Aboard the Orient Express</rdfs:label>
+  </movie:film>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/1406">
+    <rdfs:label>Phone Booth</rdfs:label>
+  </movie:film>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/319">
+    <rdfs:label>Platoon</rdfs:label>
+  </movie:film>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/206">
+    <rdfs:label>Red River</rdfs:label>
+  </movie:film>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/936">
+    <rdfs:label>The Fly</rdfs:label>
+  </movie:film>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/257">
+    <rdfs:label>Father of the Bride</rdfs:label>
+  </movie:film>
+  <movie:film rdf:about="http://data.linkedmdb.org/resource/film/737">
+    <rdfs:label>Batman: Mask of the Phantasm</rdfs:label>
+  </movie:film>
+  <movie:cinematographer rdf:about="http://data.linkedmdb.org/resource/cinematographer/2935">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Karl Kels (Cinematographer)</rdfs:label>
+  </movie:cinematographer>
+  <movie:cinematographer rdf:about="http://data.linkedmdb.org/resource/cinematographer/2560">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Maurice Wright (Cinematographer)</rdfs:label>
+  </movie:cinematographer>
+  <movie:cinematographer rdf:about="http://data.linkedmdb.org/resource/cinematographer/2318">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Davis Guggenheim (Cinematographer)</rdfs:label>
+  </movie:cinematographer>
+  <movie:cinematographer rdf:about="http://data.linkedmdb.org/resource/cinematographer/2974">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Amir Mokri (Cinematographer)</rdfs:label>
+  </movie:cinematographer>
+  <movie:cinematographer rdf:about="http://data.linkedmdb.org/resource/cinematographer/2785">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Buddy Noonan (Cinematographer)</rdfs:label>
+  </movie:cinematographer>
+  <movie:cinematographer rdf:about="http://data.linkedmdb.org/resource/cinematographer/554">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Hans Androschin (Cinematographer)</rdfs:label>
+  </movie:cinematographer>
+  <movie:cinematographer rdf:about="http://data.linkedmdb.org/resource/cinematographer/238">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Vilko Filac (Cinematographer)</rdfs:label>
+  </movie:cinematographer>
+  <movie:cinematographer rdf:about="http://data.linkedmdb.org/resource/cinematographer/2821">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Jules Labarthe (Cinematographer)</rdfs:label>
+  </movie:cinematographer>
+  <movie:cinematographer rdf:about="http://data.linkedmdb.org/resource/cinematographer/50">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Michael J. Davis (Cinematographer)</rdfs:label>
+  </movie:cinematographer>
+  <movie:cinematographer rdf:about="http://data.linkedmdb.org/resource/cinematographer/1329">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Stanislav Dorsic (Cinematographer)</rdfs:label>
+  </movie:cinematographer>
+  <movie:cinematographer rdf:about="http://data.linkedmdb.org/resource/cinematographer/838">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Rodney Charters (Cinematographer)</rdfs:label>
+  </movie:cinematographer>
+  <movie:cinematographer rdf:about="http://data.linkedmdb.org/resource/cinematographer/803">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Eduardo Serra (Cinematographer)</rdfs:label>
+  </movie:cinematographer>
+  <movie:cinematographer rdf:about="http://data.linkedmdb.org/resource/cinematographer/513">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>Kelly Evans (Cinematographer)</rdfs:label>
+  </movie:cinematographer>
+  <movie:cinematographer rdf:about="http://data.linkedmdb.org/resource/cinematographer/1008">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label>S. Manikandan (Cinematographer)</rdfs:label>
+  </movie:cinematographer>
+  </rdf:RDF>
